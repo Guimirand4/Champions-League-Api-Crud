@@ -7,4 +7,5 @@ export const getPlayer = async (req: Request, res:Response) =>{
 
     res.status(httpResponse.statusCode).json(httpResponse.body);
 
-    }
+};
+
